@@ -1,28 +1,33 @@
 <table>
   <tr>
-    <th><h3>Categories</h3></th>
-    <th><h3>Operators</h3></th>
-    <th><h3>Database objects</h3></th>
-  </tr>
-  <tr>
-    <td>    
+    <td valign="top">
+<h3>Categories</h3>
     <p>DDL: Data Definition Language </p>
     <p>DQL: Data Query Language</p>
     <p>DML: Data Manipulation Language</p>
     <p>DCL: Data Control Language</p>
     <p>TCL: Transaction Language</p>
+<h3>Commands</h3>
+<h3>C</h3>
+
+
+     
     </td>
-    <td>
+    <td valign="top">
+<h3>Operators</h3>
       <h4>Arithmetic</h4>
-      <p>+ - * /</p>
+      		<p>+ - * /</p>
       <h4>Bitwise</h4>
-      <p>& | ^</p>
+      		<p>& | ^</p>
       <h4>Comparison</h4>
-      <p>+= -= </p>
+      		<p>= < > <= >= !< !> <> != </p>
       <h4>Compound</h4>
+	   	<p>+= -= *= /= %= &= != ^=</p> 
       <h4>Logical</h4>
+		<p>AND | OR | NOT | ANY | SOME | ALL | BETWEEN | IN | EXISTS | LIKE | IS NULL | UNIQUE |</p>
     </td>
-    <td>
+    <td  valign="top">
+<h3>Database objects</h3>
      <p>TABLE | VIEW | SYNONYM</p>
      <p>SEQUENCE | INDEX | TRIGGER</p>
     </td>
