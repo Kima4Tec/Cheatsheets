@@ -9,31 +9,38 @@
     <p>TCL: Transaction Language</p>
 <h3>Commands</h3>
 <h4>$${\color{blue}DDL}$$</h4><p>CREATE | DROP | ALTER | TRUNCATE | RENAME | COMMENT </p>
-  <h4>$${\color{blue}DQL}$$</h4>
-  <h4>$${\color{blue}DML}$$</h4>
-  <h4>$${\color{blue}DCL}$$</h4>
-  <h4>$${\color{blue}TCL}$$</h4>
-		
-		
+  <h4>$${\color{blue}DQL}$$</h4><p>SELECT</p>
+  <h4>$${\color{blue}DML}$$</h4><p>INSERT | UPDATE | DELETE | LOCK | CALL | EXPLAIN PLAN</p>
+  <h4>$${\color{blue}DCL}$$</h4><p>GRANT | REVOKE</p>
+  <h4>$${\color{blue}TCL}$$</h4><p>COMMIT | ROLLBACK | SAVEPOINT | SET TRANSACTION</p>		
 <h3>DDL Examples</h3>
 	</td>
     <td valign="top">
 <h3>Operators</h3>
-      <h4>Arithmetic</h4>
+      <h4>$${\color{blue}Arithmetic}$$</h4>
       		<p>+ - * /</p>
-      <h4>Bitwise</h4>
+      <h4>$${\color{blue}Bitwise}$$</h4>
       		<p>& | ^</p>
-      <h4>Comparison</h4>
+      <h4>$${\color{blue}Comparison}$$</h4>
       		<p>= < > <= >= !< !> <> != </p>
-      <h4>Compound</h4>
+      <h4>$${\color{blue}Compound}$$</h4>
 	   	<p>+= -= *= /= %= &= != ^=</p> 
-      <h4>Logical</h4>
+      <h4>$${\color{blue}Logical}$$</h4>
 		<p>AND | OR | NOT | ANY | SOME | ALL | BETWEEN | IN | EXISTS | LIKE | IS NULL | UNIQUE |</p>
+<h3>Important Keywords</h3>
+			<p>WHERE | DISTINCT | LIMIT | ORDER BY | DESC | ASC | AS | FROM | SET | VALUES | CASE | DEFAULT</p>
     </td>
     <td  valign="top">
 <h3>Database objects</h3>
-     <p>TABLE | VIEW | SYNONYM</p>
-     <p>SEQUENCE | INDEX | TRIGGER</p>
+          <p>TABLE | VIEW | SYNONYM
+     SEQUENCE | INDEX | TRIGGER</p>
+	    <h3>Constraints</h3>
+	    <p>NOT NULL | UNIQUE | PRIMARY KEY | FOREIGN KEY | CHECK | DEFAULT</p>
+	    <h3>Aggregation Functions</h3>
+     <p>AVG | COUNT</p>
+     <p>MAX | MIN | SUM</p>
+	    <h3>Aggregation Keywords</h3>
+     <p>GROUP BY | HAVING
     </td>
   </tr>
 </table>
