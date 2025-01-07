@@ -22,7 +22,10 @@
       <h4>Compound</h4>
       <h4>Logical</h4>
     </td>
-    <td>Tekst til kolonne 3</td>
+    <td>
+     <p>TABLE | VIEW | SYNONYM</p>
+     <p>SEQUENCE | INDEX | TRIGGER</p>
+    </td>
   </tr>
 </table>
 
