@@ -1,11 +1,21 @@
-| Categories | Operators | Database objects | 
-|-----------|-----------|-----------|
-| DDL: Data Definition Language  | Tekst 2   | Tekst 3   |
-| DQL: Data Query Language| Mere tekst| Mere tekst|
-| DML: Data Manipulation Language| Mere tekst| Mere tekst|
-| DCL: Data Control Language| Mere tekst| Mere tekst|
-| TCL: Transaction Language| Mere tekst| Mere tekst|
-|-----------|-----------|-----------|
-| Commands | Important Keywords | Constraints | 
+<table>
+  <tr>
+    <th><h3>Categories</h3></th>
+    <th><h3>Operators</h3></th>
+    <th><h3>Database objects</h3></th>
+  </tr>
+  <tr>
+    <td>    
+    <p>DDL: Data Definition Language </p>
+    <p>DQL: Data Query Language</p>
+    <p>DML: Data Manipulation Language</p>
+    <p>DCL: Data Control Language</p>
+    <p>TCL: Transaction Language</p>
+    </td>
+    <td><b>Arithmetic</b></td>
+    <td>Tekst til kolonne 3</td>
+  </tr>
+</table>
+
 
 
