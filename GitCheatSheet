@@ -1,0 +1,36 @@
+PUSH TO NEW BRANCH
+On branch master: This indicates that you are currently on the master branch of your Git repository. The master branch is typically the main development branch.
+
+git checkout -b GnistRefactor: This command creates a new branch called GnistRefactor and switches to it immediately. The -b flag stands for "branch," allowing you to create and check out a branch in one step.
+
+git status: This command shows the current status of your Git repository, including which branch you are on and any changes that have been staged, unstaged, or committed. After the previous command, it will show that you are now on the GnistRefactor branch.
+
+git stage .: This command stages all the changes in your working directory for the next commit. The . indicates that all modified files should be included.
+
+git status: Running this command again will show the status of the repository, now indicating that changes have been staged for commit.
+
+git commit -m "refactor style structor for images and more": This command commits the staged changes to the repository with a message describing the commit. The -m flag allows you to provide the commit message inline.
+
+git push --set-upstream origin GnistRefactor: This command pushes your GnistRefactor branch to the remote repository (origin). The --set-upstream flag sets the remote branch as the upstream for the local branch, meaning future pushes and pulls will default to this remote branch.
+
+
+
+
+:::Skift til master (eller main):
+:::bash
+:::Kopier kode
+git checkout master
+:::Hent de nyeste ændringer fra GitHub:
+:::bash
+:::Kopier kode
+git pull origin master
+:::Merge din branch ind i master (eller main):
+:::bash
+:::Kopier kode
+git merge feature-branch
+:::Løs eventuelle merge-konflikter, hvis nødvendigt.
+:::Push de merged ændringer til GitHub:
+:::bash
+:::Kopier kode
+git push origin master
+:::Når du har kørt disse kommandoer, vil din branch være merged ind i master på GitHub!
