@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td valign="top">
+	<td valign="top">
 <h3>Categories</h3>
     <p>DDL: Data Definition Language </p>
     <p>DQL: Data Query Language</p>
@@ -8,11 +8,8 @@
     <p>DCL: Data Control Language</p>
     <p>TCL: Transaction Language</p>
 <h3>Commands</h3>
-<h3>C</h3>
-
-
-     
-    </td>
+<h3>DDL Examples</h3>
+	</td>
     <td valign="top">
 <h3>Operators</h3>
       <h4>Arithmetic</h4>
