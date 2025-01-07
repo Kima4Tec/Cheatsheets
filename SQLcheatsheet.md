@@ -8,11 +8,11 @@
     <p>DCL: Data Control Language</p>
     <p>TCL: Transaction Language</p>
 <h3>Commands</h3>
-<h4 style="color: yellow">DDL</h4><p>CREATE | DROP | ALTER | TRUNCATE | RENAME | COMMENT </p>
-  <h4></h4>
-  <h4></h4>
-  <h4></h4>
-  <h4></h4>
+<h4>$${\color{blue}DDL}$$</h4><p>CREATE | DROP | ALTER | TRUNCATE | RENAME | COMMENT </p>
+  <h4>$${\color{blue}DQL}$$</h4>
+  <h4>$${\color{blue}DML}$$</h4>
+  <h4>$${\color{blue}DCL}$$</h4>
+  <h4>$${\color{blue}TCL}$$</h4>
 		
 		
 <h3>DDL Examples</h3>
