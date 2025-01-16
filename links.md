@@ -1,3 +1,3 @@
 <h1>Types for Typescript</h1>
-🔗 https://github.com/definitelytyped/definitelytyped
-🔗 https://www.npmjs.com/
+<p></p>🔗 https://github.com/definitelytyped/definitelytyped</p>
+<p>🔗 https://www.npmjs.com/</p>
